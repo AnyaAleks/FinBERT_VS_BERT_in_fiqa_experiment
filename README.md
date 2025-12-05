@@ -1,4 +1,3 @@
-```markdown
 # Financial Sentiment Analysis: BERT vs FinBERT Comparison
 
 ## Project Overview
@@ -119,17 +118,22 @@ seaborn>=0.11.0
 ## Visualizations Generated
 
 ### 1. Accuracy Comparison
-![Accuracy Comparison](Visualizations/bert_vs_finbert.png)
+<img width="468" height="337" alt="image" src="https://github.com/user-attachments/assets/75ef4ae8-7dae-427e-9618-cc52fd676007" />
+
 - Direct comparison of model accuracy
 - Shows 33.3% improvement with FinBERT
 
 ### 2. Confusion Matrices
-![Confusion Matrices](Visualizations/professional_comparison.png)
+<img width="649" height="249" alt="image" src="https://github.com/user-attachments/assets/f772f57a-9809-4a31-b9b2-6cd53fb4c402" />
+
+
 - Side-by-side error analysis
 - Reveals BERT's neutral bias pattern
 
 ### 3. Class-wise Comparison
-![Class-wise Accuracy](Visualizations/bert_finbert_detailed_comparison.png)
+<img width="479" height="329" alt="image" src="https://github.com/user-attachments/assets/e9e81bb2-bdcf-4bc6-a3a4-ff7037c2085a" />
+
+
 - Performance breakdown by sentiment class
 - FinBERT excels at detecting financial sentiment extremes
 
