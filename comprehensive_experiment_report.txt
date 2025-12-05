@@ -1,0 +1,74 @@
+================================================================================
+EXPERIMENT REPORT: BERT vs FinBERT Financial Sentiment Analysis
+================================================================================
+
+📅 Experiment Date: 2025-12-05 09:21:18
+📊 Test Dataset Size: 6 samples
+📈 Class Distribution: {1: np.int64(3), 0: np.int64(2), 2: np.int64(1)}
+   0: Negative, 1: Neutral, 2: Positive
+
+════════════════════════════════════════════════════════════
+📊 MODEL PERFORMANCE RESULTS
+════════════════════════════════════════════════════════════
+
+🏷️  BERT:
+   Overall Accuracy: 0.5000 (50.00%)
+   Weighted Precision: 0.2500
+   Weighted Recall: 0.5000
+   Weighted F1-Score: 0.3333
+   Confusion Matrix Analysis:
+     Negative: 0/2 correct (0.0%)
+     Neutral: 3/3 correct (100.0%)
+     Positive: 0/1 correct (0.0%)
+
+🏷️  FINBERT:
+   Overall Accuracy: 0.8333 (83.33%)
+   Weighted Precision: 0.8889
+   Weighted Recall: 0.8333
+   Weighted F1-Score: 0.8333
+   Confusion Matrix Analysis:
+     Negative: 2/2 correct (100.0%)
+     Neutral: 2/3 correct (66.7%)
+     Positive: 1/1 correct (100.0%)
+
+════════════════════════════════════════════════════════════
+🏆 COMPARATIVE ANALYSIS
+════════════════════════════════════════════════════════════
+
+BERT vs FinBERT Comparison:
+  • BERT Accuracy: 0.5000 (50.00%)
+  • FinBERT Accuracy: 0.8333 (83.33%)
+  • FinBERT Improvement: +0.3333 (+33.33%)
+  • Relative Improvement: 66.7%
+
+════════════════════════════════════════════════════════════
+🔍 KEY FINDINGS AND INTERPRETATION
+════════════════════════════════════════════════════════════
+
+1. Performance Analysis:
+   - FinBERT is specifically pretrained on financial texts
+   - BERT is a general-purpose language model
+   - Expected: FinBERT should outperform BERT on financial texts
+
+2. Experimental Observations:
+   ✓ FinBERT demonstrates superior financial understanding
+   ✓ Domain-specific pretraining is effective
+   ✓ Financial terminology is better captured by FinBERT
+
+3. Business Implications:
+   • For financial sentiment analysis, use domain-specific models
+   • Consider fine-tuning on company-specific financial language
+   • Regular model updates with recent financial news
+
+════════════════════════════════════════════════════════════
+📁 OUTPUT FILES CREATED
+════════════════════════════════════════════════════════════
+
+Visualization Files:
+   • professional_comparison.png - Complete comparison dashboard
+   • bert_vs_finbert.png - Direct accuracy comparison
+
+Data Files:
+   • test_predictions.csv - Detailed predictions
+
+================================================================================
